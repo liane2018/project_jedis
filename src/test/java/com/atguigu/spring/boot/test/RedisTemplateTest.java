@@ -55,6 +55,7 @@ public class RedisTemplateTest {
 
     }
 
+    //Git提交测试
     @Test
     public void testRedisTemplateGet(){
         ValueOperations<Object, Object> operations = redisTemplate.opsForValue();
